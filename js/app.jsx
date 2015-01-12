@@ -21,4 +21,7 @@ global.app = function() {
   React.render(<Bar/>, body);
 };
 
+// for development tools
+global.React = React;
+
 export {Foobar}
